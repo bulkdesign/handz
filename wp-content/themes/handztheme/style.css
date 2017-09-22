@@ -245,7 +245,9 @@ h3{
 }
 
 /*PÁGINA PRODUTOS*/
-
+#produtos{
+  padding: 0 0 50px;
+}
 
 #produtos .container{
   width: 95%!important;
@@ -261,6 +263,7 @@ h3{
   background-color: lightgrey;
   height: 1px;
   border: none;
+  margin-bottom: 50px;
 }
 
 .tituloproduto{
@@ -268,12 +271,12 @@ h3{
   line-height: 1.8rem;
 }
 
-.produto{
-  margin-top : 50px;
-}
-
 .produto h6{
   font-weight: 800;
+}
+
+.produto img{
+  max-width: 300px!important;
 }
 
 #produtos a{
