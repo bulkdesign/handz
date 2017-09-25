@@ -9,7 +9,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet">
 	<link rel="shortcut icon" href="images/favicon.ico" />
   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-
+  <meta charset="utf-8">
   <title>
       <?php if ( is_category() ) {
         echo 'Categoria de &quot;'; single_cat_title(); echo '&quot; | '; bloginfo( 'name' );

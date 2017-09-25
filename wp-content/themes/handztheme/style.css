@@ -366,6 +366,25 @@ h6{
   background-color: white!important;
 }
 
+/*PÁGINA CUPONS E PROMOÇÕES*/
+#cuponsepromocoes .container{
+  width: 85%!important;
+}
+
+.layer-media img{
+  height: 300px;
+}
+
+#post-grid-25 .element_0{
+  height: 50px!important;
+}
+
+#post-grid-25 .element_2{
+  background-color: darkorange;
+  font-size: 15px!important;
+  color: white;
+}
+
 h1{
   font-size: 45px!important;
   padding: 30px;
