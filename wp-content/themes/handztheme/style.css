@@ -253,12 +253,12 @@ h3{
   width: 95%!important;
 }
 
-#produtos p{
+#produtos p, #cuponsepromocoes p{
   margin-top: -10px;
   color: grey;
 }
 
-#produtos hr{
+#produtos hr, #cuponsepromocoes hr{
   width: 80%;
   background-color: lightgrey;
   height: 1px;
@@ -385,6 +385,22 @@ h6{
   color: white;
 }
 
+#post-grid-25 .item{
+  width: 33.33%!important;
+}
+
+#post-grid-25 .item{
+  margin: auto!important;
+}
+
+.post-grid .item .layer-media img{
+  width: auto!important;
+}
+
+.skin.flat .layer-content {
+    padding: 15px 10px!important;
+}
+
 h1{
   font-size: 45px!important;
   padding: 30px;
@@ -399,6 +415,13 @@ h1{
 @media (max-width: 675px) {
   #wpsl-search-wrap{
     height: 150px;
+  }
+  #wpsl-search-input{ 
+    width: 92% !important; 
+  }
+
+  .descricao{
+    padding: 25px 0;
   }
 }
 
@@ -429,5 +452,22 @@ h1{
 @media (min-width: 1150px) {
   #Sobre{
     margin-top: -50px;
+  }
+}
+
+@media (max-width: 1073px) {
+  #post-grid-25 .item{
+    width: 50%!important;
+  }
+}
+
+
+@media (max-width: 730px) {
+  #post-grid-25 .item{
+    width: 100%!important;
+  }
+
+  #post-grid-25 .item{
+    margin: auto!important;
   }
 }
