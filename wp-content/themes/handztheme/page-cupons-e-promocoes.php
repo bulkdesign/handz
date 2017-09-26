@@ -8,7 +8,7 @@
 					<p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos</p>
 					<hr>
 				</div>
-				<div>
+				<div class="col s12">
 					<?php echo do_shortcode("[post_grid id='25']"); ?>
 				</div>
 			</div>
