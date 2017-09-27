@@ -183,10 +183,10 @@ h3{
 
 /*SECTION CONTATO - INDEX.HTML*/
 #Contato{
-    text-align: center;
-    background-color: #222222;
-    color: white;
-    margin-top: -20px;
+  text-align: center;
+  background-color: #222222;
+  color: white;
+  margin-top: -20px;
 }
 
 .margin50{
@@ -194,9 +194,16 @@ h3{
 }
 
 #Contato .btn{
-    background-color: transparent;
-    border: 1px solid grey;
-    margin-bottom: 50px;
+  background-color: transparent;
+  border: 1px solid grey;
+  margin-bottom: 50px;
+}
+
+#Contato .btn:hover,#Contato .btn:focus{
+  background-color: white;
+  color: black;
+  transition-property: all;
+  transition-duration: 0.3s; 
 }
 
 #Contato h4{
@@ -263,7 +270,6 @@ h3{
   background-color: lightgrey;
   height: 1px;
   border: none;
-  margin-bottom: 50px;
 }
 
 .tituloproduto{
@@ -271,6 +277,9 @@ h3{
   line-height: 1.8rem;
 }
 
+.produto{
+  margin-top: 50px!important;
+}
 .produto h6{
   font-weight: 800;
 }
@@ -379,10 +388,10 @@ h6{
   height: 50px!important;
 }
 
-#post-grid-25 .element_2{
-  background-color: darkorange;
-  font-size: 15px!important;
+#post-grid-25 .element_1506460751451{
+  background-color: #161616;
   color: white;
+  font-size: 15px;
 }
 
 #post-grid-25 .item{
@@ -390,7 +399,7 @@ h6{
 }
 
 #post-grid-25 .item{
-  margin: auto!important;
+  margin: 25px 0!important;
 }
 
 .post-grid .item .layer-media img{
@@ -467,6 +476,6 @@ h1{
   }
 
   #post-grid-25 .item{
-    margin: auto!important;
+    margin: 25px!important;
   }
 }
