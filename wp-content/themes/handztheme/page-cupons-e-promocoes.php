@@ -9,7 +9,7 @@
 					<hr>
 				</div>
 				<div class="col s12">
-					<?php echo do_shortcode("[post_grid id='25']"); ?>
+					<?php echo do_shortcode("[post_grid id='36']"); ?>
 				</div>
 			</div>
 		</div>

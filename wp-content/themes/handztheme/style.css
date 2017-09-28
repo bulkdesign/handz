@@ -222,6 +222,29 @@ h3{
 
 #Footer h5{
   color: white;
+  font-size: 15px;
+}
+
+#Footer .sitemap{
+  font-size: 13px;
+  text-align: justify;
+}
+
+.modal{
+  text-align: center;
+}
+
+.modal, .modal-footer{
+  background-color: #222222!important;
+  color: white!important;
+}
+
+.modal .modal-close{
+  color: white;
+}
+
+.modal-content h6{
+  font-weight: 100!important;
 }
 
 .Social{
@@ -265,7 +288,7 @@ h3{
   color: grey;
 }
 
-#produtos hr, #cuponsepromocoes hr{
+#produtos hr, #cuponsepromocoes hr, #revendedor hr{
   width: 80%;
   background-color: lightgrey;
   height: 1px;
@@ -388,9 +411,10 @@ h6{
   height: 50px!important;
 }
 
-#post-grid-25 .element_1506460751451{
+#post-grid-36 .element_2{
   background-color: #161616;
   color: white;
+  padding: 5px 0!important;
   font-size: 15px;
 }
 
@@ -408,6 +432,41 @@ h6{
 
 .skin.flat .layer-content {
     padding: 15px 10px!important;
+}
+
+/*PÁGINA SEJA UM REVENDEDOR*/
+#revendedor .margin50{
+  margin-bottom: 50px;
+}
+
+#revendedor .btn{
+  background-color: #17171C;
+  margin-top: 25px;
+  border: 1px solid black;
+}
+
+#revendedor .btn:hover,#revendedor .btn:focus{
+  transition-property: all;
+  transition-duration: 0.3s;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+}
+
+::-webkit-input-placeholder {
+   color: grey!important;
+}
+
+:-moz-placeholder {
+   color: grey!important;
+}
+
+::-moz-placeholder {
+   color: grey!important;  
+}
+
+:-ms-input-placeholder {  
+   color: grey!important;  
 }
 
 h1{

@@ -47,6 +47,7 @@
                 <li><a href="Produtos" class="white-text">Produtos</a></li>
                 <li><a href="Onde-Encontrar" class="white-text">Onde Encontrar</a></li>
                 <li><a href="Cupons" class="white-text">Cupons e Promoções</a></li>
+                <li><a href="seja-um-revendedor" class="white-text">Seja um Revendedor</a></li>
                 <li><a href="#Contato" class="white-text">Contato</a></li>
               </ul>
               <main class="hide-on-large-only">
@@ -68,6 +69,7 @@
             <li><a href="Produtos" class="white-text">Produtos</a></li>
             <li><a href="Onde-Encontrar" class="white-text">Onde Encontrar</a></li>
             <li><a href="Cupons" class="white-text">Cupons e Promoções</a></li>
+            <li><a href="Revendedor" class="white-text">Seja um Revendedor</a></li>
             <li><a href="#Contato" class="white-text">Contato</a></li>
           </ul>
         </nav>

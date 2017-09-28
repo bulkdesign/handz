@@ -12,10 +12,10 @@
                 <div class="col s12 m12 l8 margin50">
                     <form>
                         <div class="col s12 m6 l6">
-                            <input type="text" name="ContatoNome" placeholder="Seu Nome (requirido)">
+                            <input type="text" name="ContatoNome" placeholder="Seu Nome (Requerido)">
                         </div>
                         <div class=" col s12 m6 l6">
-                            <input type="text" name="ContatoEmail" placeholder="Seu E-mail (requirido)">
+                            <input type="text" name="ContatoEmail" placeholder="Seu E-mail (Requerido)">
                         </div>
                         <div class="col s12">
                             <input type="text" name="ContatoTelefone" placeholder="Sua Mensagem">
@@ -34,25 +34,34 @@
           <div class="row">
 
             <div class="col s12 sitemap hide-on-small-only">
-               <div class="col m6 l3">
+               <div class="col l2">
                 <h5>Sobre</h5>
                    <a href="#"><p>Sobre Nós</p></a>
                    <a href="#"><p>Onde Comprar</p></a>
                </div>
-                <div class="col m6 l3">
+                <div class="col l2">
                 <h5>Suporte</h5>
                    <a href="#"><p>Contato</p></a>
-                   <a href="#"><p>Ajuda</p></a>
+                   <a class=" waves-light modal-trigger" href="#modal1"><p>SAC</p></a>
+
+                   <!--Modal do SAC-->
+                   <div id="modal1" class="modal">
+                    <div class="modal-content">
+                      <h4>Entre em contato conosco</h4>
+                      <h6>(41) 4002-8922</h6>
+                    </div>
+                    <div class="modal-footer">
+                      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">OK</a>
+                    </div>
+                  </div>
+
+
+
                </div>
-                <div class="col m6 l3">
+                <div class="col l2">
                 <h5>Legal</h5>
                    <a href="#"><p>Privacidade</p></a>
                    <a href="#"><p>Termos</p></a>
-               </div>
-                <div class="col m6 l3">
-                <h5>Outros</h5>
-                   <a href="#"><p>Conta</p></a>
-                   <a href="$#"><p>Produtos</p></a>
                </div>
             </div>
 
@@ -90,6 +99,13 @@
       });
     });
     })(jQuery);
+
+
+    $(document).ready(function(){
+      // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+      $('.modal').modal();
+    });
+
   </script>
 
   <?php wp_footer(); ?>
