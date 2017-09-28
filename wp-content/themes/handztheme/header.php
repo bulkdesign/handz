@@ -8,7 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/materialize/css/materialize.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet">
 	<link rel="shortcut icon" href="images/favicon.ico" />
-  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta charset="utf-8">
   <title>
       <?php if ( is_category() ) {
