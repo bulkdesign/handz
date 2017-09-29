@@ -1,5 +1,3 @@
-
-
     <!--SECTION CONTATO-->
       <section id="Contato" class="section scrollspy">
           <div class="container">
@@ -28,11 +26,9 @@
             </div>
           </div>
       </section>
-
       <section id="Footer">
         <div class="container">
           <div class="row">
-
             <div class="col s12 sitemap hide-on-small-only">
                <div class="col l2">
                 <h5>Sobre</h5>
@@ -47,24 +43,26 @@
                    <!--Modal do SAC-->
                    <div id="modal1" class="modal">
                     <div class="modal-content">
-                      <h4>Entre em contato conosco</h4>
-                      <h6>(41) 4002-8922</h6>
+                      <h3>Entre em contato conosco</h3>
+                      <h3 style="font-size: 20px;">(41) 4002-8922</h3>
                     </div>
                     <div class="modal-footer">
                       <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">OK</a>
                     </div>
                   </div>
-
-
-
                </div>
                 <div class="col l2">
                 <h5>Legal</h5>
                    <a href="#"><p>Privacidade</p></a>
                    <a href="#"><p>Termos</p></a>
                </div>
+               <div class="col l4"></div><!--ESPAÇAMENTO CENTRAL-->
+               <div class="col l2" style="text-align: right;">
+                 <h5>Outros</h5>
+                   <a href="Produtos"><p>Produtos</p></a>
+                   <a href="Cupons"><p>Cupons e Promoções</p></a>
+               </div>
             </div>
-
             <div class="col s12 Social">
                 <a href="http://facebook.com" target="_blank"><img src="<?php bloginfo('template_url');?>/images/FacebookIcon.png"></a>
                 <a href="http://twitter.com" target="_blank"><img src="<?php bloginfo('template_url');?>/images/TwitterIcon.png"></a>
@@ -76,12 +74,9 @@
           </div>
         </div>
       </section>
-
-
   <!--Import jQuery before materialize.js-->
   <script src="http://code.jquery.com/jquery.min.js"></script>
   <script type="text/javascript" src="<?php bloginfo('template_url');?>/materialize/js/materialize.js"></script>
-
   <!--SCROLLSPY-->
   <script>
     <!--SCROLLSPY-->
@@ -89,7 +84,6 @@
         $('.scrollspy').scrollSpy();
     });
   </script>
-
   <!--ASIDE-->
   <script type="text/javascript">
   (function($) {
@@ -99,15 +93,11 @@
       });
     });
     })(jQuery);
-
-
     $(document).ready(function(){
       // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
       $('.modal').modal();
     });
-
   </script>
-
   <?php wp_footer(); ?>
 	</body>
 </html>

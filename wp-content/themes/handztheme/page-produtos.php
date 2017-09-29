@@ -5,7 +5,6 @@
 		<div class="row">
 			<div class="col s12">
 				<h1>Produtos</h1>
-				<p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos</p>
 				<hr>
 			</div>
 			<div class="col s12">

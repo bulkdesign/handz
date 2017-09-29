@@ -5,7 +5,7 @@
 			<div class="row">
 				<div class="col s12">
 					<h1>Seja um Revendedor</h1>
-					<p style="color: grey;">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos</p>
+					<p class="subtitulo" ">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos</p>
 					<hr>
 				</div>
                 <div class="col l2"></div>

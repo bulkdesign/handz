@@ -138,13 +138,11 @@ h3{
 #Sobre img{
   max-height: 375px;
 }
-
 #Sobre, #Capa, #Suporte, #Cabo, #Bateria, #Pelicula{
   height: 580px;
   padding: 100px 0;
   text-align: justify;
 }
-
 /*PERSONALIZAÇÃO TEXTOS GERAIS DAS CATEGORIAS*/
 #Categorias .Categoria{
   height: 400px;
@@ -232,19 +230,11 @@ h3{
 
 .modal{
   text-align: center;
+  margin-top: 150px!important;
 }
 
-.modal, .modal-footer{
-  background-color: #222222!important;
-  color: white!important;
-}
-
-.modal .modal-close{
-  color: white;
-}
-
-.modal-content h6{
-  font-weight: 100!important;
+#modal1 p{
+  font-size: 20px;
 }
 
 .Social{
@@ -288,11 +278,16 @@ h3{
   color: grey;
 }
 
-#produtos hr, #cuponsepromocoes hr, #revendedor hr{
+#produtos hr, #cuponsepromocoes hr, #revendedor hr, .ondeencontrar hr{
   width: 80%;
   background-color: lightgrey;
   height: 1px;
   border: none;
+}
+
+.subtitulo{
+  color: grey;
+  margin-top: -20px;
 }
 
 .tituloproduto{
@@ -348,35 +343,6 @@ h6{
   margin-bottom: 300px!important;
 }
 
-@media (max-width: 600px) {
-  .container{
-    width: 95%!important;
-  }
-
-  #Categorias .Categoria{
-    height: 300px;
-    background-position: center;
-  }
-
-  #Categorias .Categoria h3{
-    margin-top: 130px;
-  }
-
-  #Sobre{
-    margin-top: 0px;
-    height: 450px;
-    padding: 0px;
-  }
-
-  #Sobre .container{
-    width: 85%!important;
-  }
-
-  .brand-logo{
-    margin-top: -5px;
-  }
-}
-
 /*PÁGINA ONDE ENCONTRAR*/
 #wpsl-stores{
   text-align: center;
@@ -401,8 +367,32 @@ h6{
 /*PÁGINA CUPONS E PROMOÇÕES*/
 #cuponsepromocoes .container{
   width: 85%!important;
+  margin-bottom: 100px;
 }
 
+.cupom{
+  margin-top: 50px!important;
+} 
+
+.cupom h1{
+  padding: 0px;
+}
+
+.cupom .btn{
+  background-color: #171717;
+  color: white;
+}
+
+.cupom .btn:hover, .cupom .btn:focus{
+  background-color: #FFFFFF;
+  color: black;
+  transition-property: all;
+  transition-duration: 0.4s;
+  border: 1px solid black;
+}
+.cupom h1{
+  height: 30px;
+}
 .layer-media img{
   height: 300px;
 }
@@ -474,9 +464,41 @@ h1{
   padding: 30px;
 }
 
+
+/*MEDIAS QUERIES*/
+@media (max-width: 600px) {
+  .container{
+    width: 95%!important;
+  }
+
+  #Categorias .Categoria{
+    height: 300px;
+    background-position: center;
+  }
+
+  #Categorias .Categoria h3{
+    margin-top: 130px;
+  }
+
+  #Sobre{
+    margin: 0px;
+    height: 450px;
+    padding: 0px;
+    margin-bottom: 150px!important;
+  }
+
+  #Sobre .container{
+    width: 85%!important;
+  }
+
+  .brand-logo{
+    margin-top: -5px;
+  }
+}
+
 @media (min-width: 600px) {
   #Sobre{
-    margin-top: -100px;
+    margin-top: -200px;
   }
 }
 
@@ -487,15 +509,23 @@ h1{
   #wpsl-search-input{ 
     width: 92% !important; 
   }
-
   .descricao{
     padding: 25px 0;
+  }
+  .cupom{
+    margin-top: 100px!important;
   }
 }
 
 @media (min-width: 675px) {
   #wpsl-search-wrap{
     height: 100px;
+  }
+}
+
+@media (min-width: 850px) {
+  #Sobre{
+    margin-top: -100px;
   }
 }
 
@@ -507,19 +537,13 @@ h1{
     height: 50px!important;
   }
   #Sobre{
-    margin-top: -170px;
+    margin-top: 0px;
   }
 }
 
 @media (max-width: 992px) {
   .descricao .descricaotexto{
     margin-top: 0px;
-  }
-}
-
-@media (min-width: 1150px) {
-  #Sobre{
-    margin-top: -50px;
   }
 }
 
